@@ -10,7 +10,7 @@ CultureVerse is a specialized AI system designed to move beyond literal translat
 
 ### The Challenge
 
-Modern LLMs such as GPT-4, LLaMA, or base multilingual models excel at direct translation but struggle with **cultural localization**.
+Modern LLMs such as Groq, Gemini and  LLaMA, or base multilingual models excel at direct translation but struggle with **cultural localization**.
 
 Examples:
 
