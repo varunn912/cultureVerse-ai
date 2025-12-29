@@ -141,8 +141,8 @@ Due to the high cost of persistent GPU hosting (e.g., AWS `g4dn.xlarge` or Huggi
 
 However, the project is **fully reproducible**:
 
-* **Training Notebook:** Available in the `training/` directory
-* **Inference Notebook:** Available in the `deployment/` directory
+* **Training Notebook:** Available in the `notebooks/` directory
+* **Inference Notebook:** Available in the `notebooks/` directory
 * **Model Weights:** LoRA adapters can be loaded on top of Qwen 2.5 using the provided scripts
 
 ---
