@@ -166,7 +166,7 @@ CultureVerse showcases end-to-end applied ML and MLOps capability:
 CultureVerse is not just a translation model—it is a **cultural reasoning engine**. It demonstrates how smaller, well-trained models can outperform larger systems in **consistency, interpretability, and domain-specific intelligence**, especially for linguistically and culturally nuanced tasks.
 
 ### 🎥 Project Demo
-![Demo Preview](assets/demo_preview.gif)
+Demo Preview: " https://drive.google.com/file/d/1n-idKZ8bpJbX2tvJ9gyjhN6RthLsXJzr/view?usp=drive_link "
 
 DOWNLOAD THE MODEL FROM: " https://drive.google.com/file/d/1rOxE3lFAEaR-oFhmlqsIBFPx07x5MC4B/view?usp=drive_link "
 
