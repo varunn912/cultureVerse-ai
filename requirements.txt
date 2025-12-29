@@ -1,0 +1,24 @@
+# --- Core Deep Learning & Acceleration ---
+torch>=2.0.0
+accelerate                  # Optimizes model loading on GPUs
+bitsandbytes                # Crucial for 4-bit Quantization (QLoRA)
+
+# --- Transformers & Fine-Tuning ---
+transformers                # Hugging Face model ecosystem
+peft                        # Parameter-Efficient Fine-Tuning (LoRA adapters)
+trl==0.12.0                 # Transformer Reinforcement Learning (Pinned for stability)
+datasets                    # For loading and processing the dataset
+
+# --- RAG (Retrieval Augmented Generation) ---
+sentence-transformers       # For generating embeddings (Tier 2 system)
+faiss-cpu                   # Vector Database for semantic similarity search
+
+# --- UI & Deployment ---
+gradio                      # The web interface library for the demo
+
+# --- Data & Utilities ---
+pandas                      # Data manipulation
+numpy                       # Numerical operations
+pyarrow>=15.0.0             # Required for datasets/parquet handling
+huggingface_hub             # For model downloading and authentication
+requests                    # Standard HTTP library

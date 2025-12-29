@@ -1,0 +1,72 @@
+# ==============================================================================
+# 🐍 Python & Environment
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.ipynb_checkpoints/
+
+# ==============================================================================
+# 🧠 Machine Learning & Models (CRITICAL: Do not upload these!)
+# ==============================================================================
+# Ignore the extracted model folder
+CultureVerse_Final/
+model_adapter/
+vector_db/
+
+# Ignore heavy weight files wherever they appear
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.h5
+*.onnx
+*.msgpack
+
+# Ignore LoRA/PEFT specific files if outside the tracked structure
+adapter_model.bin
+adapter_config.json
+
+# ==============================================================================
+# 📊 Data & Indexes
+# ==============================================================================
+# Ignore large CSVs (keep small samples if needed, but block the gold file)
+data/*.csv
+*.csv
+*.tsv
+*.jsonl
+
+# FAISS Vector Database files
+*.index
+*.pkl
+*.pickle
+
+# ==============================================================================
+# 📦 Archives & Downloads
+# ==============================================================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Specifically your project zip
+CultureVerse_Final.zip
+
+# ==============================================================================
+# 🖥️ IDE & OS Settings
+# ==============================================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==============================================================================
+# ⚠️ Exceptions (Force include these if needed)
+# ==============================================================================
+# If you ever want to commit a small sample CSV, un-comment the line below:
+# !data/sample_data.csv
